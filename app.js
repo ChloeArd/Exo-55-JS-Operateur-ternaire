@@ -10,7 +10,7 @@ let addition = nombre1 + nombre2;
 span3.innerHTML = (addition) > 0 ? addition.toString() : (nombre2 - nombre1).toString();
 
 if ((span3 - 10) > 0){
-    para1.innerHTML("le résultat moins 10 est strictement inférieur à 0");
+    para1.innerHTML = "le résultat moins 10 est strictement inférieur à 0";
 }
 
 let div = document.getElementById("container");
